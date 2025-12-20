@@ -1,7 +1,7 @@
 import { useLanguage } from '@/contexts/LanguageContext';
 import { Mail } from 'lucide-react';
 
-const EMAIL = 'contact@camlycoin.com';
+const EMAIL = 'contact@camly.co';
 
 export const ContactSection = () => {
   const { t } = useLanguage();
