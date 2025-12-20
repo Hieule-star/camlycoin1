@@ -21,9 +21,108 @@ const translations: Record<Language, Record<string, string>> = {
     'nav.contact': 'Contact',
 
     // Whitepaper Page
-    'whitepaper.title': 'Whitepaper',
-    'whitepaper.subtitle': 'CAMLY COIN (CAMLY) - Whitepaper v2',
-    'whitepaper.placeholder': 'Whitepaper content will be added here.',
+    'whitepaper.title': 'CAMLY COIN (CAMLY)',
+    'whitepaper.subtitle': 'Whitepaper v2',
+    'whitepaper.toc': 'Table of Contents',
+    'whitepaper.footer': 'Whitepaper v2 – Issued: 2025',
+    'whitepaper.copyContract': 'Copy Address',
+    'whitepaper.contractCopied': 'Copied!',
+
+    // Section 1: Abstract
+    'whitepaper.section1.title': '1. Abstract',
+    'whitepaper.section1.content': 'Camly Coin (CAMLY) is a blockchain-based utility token designed to support community-oriented Web3 applications through transparent, ethical, and sustainable digital infrastructure.\n\nBuilt on the BNB Chain using the BEP-20 standard, Camly Coin emphasizes long-term usability, openness, and responsible technology development. The project does not pursue speculative objectives and does not position itself as an investment vehicle.\n\nCamly Coin exists to enable participation, contribution, and value exchange within selected digital ecosystems.',
+
+    // Section 2: Introduction
+    'whitepaper.section2.title': '2. Introduction',
+    'whitepaper.section2.content': 'As blockchain technology evolves, the need for responsible and human-centered digital systems becomes increasingly important. Camly Coin was created with a simple guiding principle:',
+    'whitepaper.section2.quote': 'Technology should empower people and communities, not create dependency or speculation.',
+    'whitepaper.section2.closing': 'Camly Coin focuses on utility, transparency, and long-term relevance rather than short-term trends.',
+
+    // Section 3: Core Principles
+    'whitepaper.section3.title': '3. Core Principles',
+    'whitepaper.section3.intro': 'Camly Coin is developed and maintained according to the following principles:',
+    'whitepaper.section3.principle1.title': 'Utility First',
+    'whitepaper.section3.principle1.desc': 'Designed for functional use within digital platforms and services.',
+    'whitepaper.section3.principle2.title': 'Transparency',
+    'whitepaper.section3.principle2.desc': 'All token data and transactions are verifiable on-chain.',
+    'whitepaper.section3.principle3.title': 'Simplicity',
+    'whitepaper.section3.principle3.desc': 'Clear structure, minimal complexity, and ease of understanding.',
+    'whitepaper.section3.principle4.title': 'Long-Term Vision',
+    'whitepaper.section3.principle4.desc': 'Built to remain relevant across technological cycles.',
+    'whitepaper.section3.principle5.title': 'Community Orientation',
+    'whitepaper.section3.principle5.desc': 'Value is created through participation and contribution.',
+
+    // Section 4: Token Overview
+    'whitepaper.section4.title': '4. Token Overview',
+    'whitepaper.section4.tokenName': 'Token Name',
+    'whitepaper.section4.tokenNameValue': 'Camly Coin',
+    'whitepaper.section4.symbol': 'Symbol',
+    'whitepaper.section4.symbolValue': 'CAMLY',
+    'whitepaper.section4.blockchain': 'Blockchain',
+    'whitepaper.section4.blockchainValue': 'BNB Chain',
+    'whitepaper.section4.standard': 'Token Standard',
+    'whitepaper.section4.standardValue': 'BEP-20',
+    'whitepaper.section4.launchDate': 'Launch Date',
+    'whitepaper.section4.launchDateValue': 'September 10, 2022',
+    'whitepaper.section4.contractTitle': 'Smart Contract Address',
+    'whitepaper.section4.contractNote': 'The contract is publicly accessible and verifiable via standard BNB Chain explorers.',
+
+    // Section 5: Distribution & Launch Structure
+    'whitepaper.section5.title': '5. Distribution & Launch Structure',
+    'whitepaper.section5.intro': 'Camly Coin was launched without:',
+    'whitepaper.section5.item1': 'Initial Coin Offering (ICO)',
+    'whitepaper.section5.item2': 'Private or public fundraising rounds',
+    'whitepaper.section5.item3': 'Venture capital participation',
+    'whitepaper.section5.closing': 'This structure was chosen to avoid conflicts of interest and to maintain alignment with a utility-driven model.\n\nCamly Coin is intended to function as a tool within digital platforms rather than as a financial asset.',
+
+    // Section 6: Utility & Use Cases
+    'whitepaper.section6.title': '6. Utility & Use Cases',
+    'whitepaper.section6.intro': 'Camly Coin may be used within supported Web3 environments for:',
+    'whitepaper.section6.item1': 'Accessing digital services',
+    'whitepaper.section6.item2': 'Facilitating platform interactions',
+    'whitepaper.section6.item3': 'Supporting community-based participation',
+    'whitepaper.section6.item4': 'Enabling value exchange tied to real usage',
+    'whitepaper.section6.closing': 'Specific implementations may vary by platform and are defined independently to ensure flexibility and scalability.',
+
+    // Section 7: Ecosystem Relationship
+    'whitepaper.section7.title': '7. Ecosystem Relationship',
+    'whitepaper.section7.intro': 'Camly Coin is designed to integrate with broader Web3 ecosystems that may include:',
+    'whitepaper.section7.item1': 'Digital identity systems',
+    'whitepaper.section7.item2': 'Community and social platforms',
+    'whitepaper.section7.item3': 'Educational and knowledge-sharing services',
+    'whitepaper.section7.item4': 'Contribution-based digital environments',
+    'whitepaper.section7.closing': 'Each platform operates independently, with Camly Coin serving as a functional utility where applicable.',
+
+    // Section 8: Governance & Development Philosophy
+    'whitepaper.section8.title': '8. Governance & Development Philosophy',
+    'whitepaper.section8.intro': 'Camly Coin follows a principle of responsible decentralization:',
+    'whitepaper.section8.item1': 'Open blockchain verification',
+    'whitepaper.section8.item2': 'No centralized promises or guarantees',
+    'whitepaper.section8.item3': 'Continuous improvement based on real-world usage',
+    'whitepaper.section8.closing': 'Development decisions prioritize stability, security, and long-term usability.',
+
+    // Section 9: Security & Transparency
+    'whitepaper.section9.title': '9. Security & Transparency',
+    'whitepaper.section9.item1': 'All transactions are recorded on-chain',
+    'whitepaper.section9.item2': 'Smart contract data is immutable',
+    'whitepaper.section9.item3': 'Users can independently verify token information',
+    'whitepaper.section9.closing': 'No off-chain manipulation or hidden mechanisms are embedded within the token structure.',
+
+    // Section 10: Risk Awareness
+    'whitepaper.section10.title': '10. Risk Awareness',
+    'whitepaper.section10.content': 'Blockchain technology involves technical and regulatory considerations. Users are responsible for understanding:',
+    'whitepaper.section10.item1': 'Local laws and regulations',
+    'whitepaper.section10.item2': 'Technical risks related to blockchain usage',
+    'whitepaper.section10.item3': 'Proper security practices',
+    'whitepaper.section10.closing': 'Camly Coin does not eliminate these risks and does not provide guarantees.',
+
+    // Section 11: Legal Disclaimer
+    'whitepaper.section11.title': '11. Legal Disclaimer',
+    'whitepaper.section11.content': 'Camly Coin is a utility token intended for informational and functional use only.\n\nThis document does not constitute financial advice, investment solicitation, or an offer of securities. No guarantees of value, returns, or performance are expressed or implied.\n\nUsers should conduct their own research and comply with applicable laws.',
+
+    // Section 12: Conclusion
+    'whitepaper.section12.title': '12. Conclusion',
+    'whitepaper.section12.content': 'Camly Coin is built with the intention to remain simple, transparent, and useful over time.\n\nRather than following speculative cycles, the project focuses on sustainable utility and responsible digital participation.\n\nCamly Coin represents a commitment to clarity, integrity, and long-term thinking in Web3 development.',
 
     // Hero Section
     'hero.tagline': 'A Token Born from Love',
@@ -125,9 +224,108 @@ const translations: Record<Language, Record<string, string>> = {
     'nav.contact': 'Liên hệ',
 
     // Whitepaper Page
-    'whitepaper.title': 'Whitepaper',
-    'whitepaper.subtitle': 'CAMLY COIN (CAMLY) - Whitepaper v2',
-    'whitepaper.placeholder': 'Nội dung Whitepaper sẽ được thêm vào đây.',
+    'whitepaper.title': 'CAMLY COIN (CAMLY)',
+    'whitepaper.subtitle': 'Whitepaper v2',
+    'whitepaper.toc': 'Mục lục',
+    'whitepaper.footer': 'Whitepaper v2 – Phát hành: 2025',
+    'whitepaper.copyContract': 'Sao chép địa chỉ',
+    'whitepaper.contractCopied': 'Đã sao chép!',
+
+    // Section 1: Abstract
+    'whitepaper.section1.title': '1. Tóm tắt',
+    'whitepaper.section1.content': 'Camly Coin (CAMLY) là một utility token được xây dựng trên nền tảng blockchain, nhằm hỗ trợ các ứng dụng Web3 hướng tới cộng đồng thông qua hạ tầng số minh bạch, có đạo đức và bền vững.\n\nCamly Coin được phát triển trên BNB Chain, theo tiêu chuẩn BEP-20, với trọng tâm là khả năng sử dụng lâu dài, tính mở và phát triển công nghệ có trách nhiệm.\n\nDự án không được định vị như một công cụ đầu tư và không theo đuổi mục tiêu đầu cơ.',
+
+    // Section 2: Introduction
+    'whitepaper.section2.title': '2. Giới thiệu',
+    'whitepaper.section2.content': 'Trong bối cảnh công nghệ blockchain ngày càng phát triển, nhu cầu về các hệ thống số có trách nhiệm và lấy con người làm trung tâm trở nên quan trọng hơn bao giờ hết. Camly Coin được tạo ra dựa trên nguyên lý cốt lõi:',
+    'whitepaper.section2.quote': 'Công nghệ tồn tại để phục vụ con người và cộng đồng, không phải để thúc đẩy đầu cơ hay phụ thuộc tài chính.',
+    'whitepaper.section2.closing': 'Camly Coin hướng tới sự rõ ràng, minh bạch và giá trị bền vững theo thời gian.',
+
+    // Section 3: Core Principles
+    'whitepaper.section3.title': '3. Nguyên tắc Cốt lõi',
+    'whitepaper.section3.intro': 'Camly Coin được xây dựng và vận hành dựa trên các nguyên tắc sau:',
+    'whitepaper.section3.principle1.title': 'Ưu tiên tính tiện ích',
+    'whitepaper.section3.principle1.desc': 'Token được thiết kế để phục vụ chức năng sử dụng thực tế.',
+    'whitepaper.section3.principle2.title': 'Minh bạch theo thiết kế',
+    'whitepaper.section3.principle2.desc': 'Mọi dữ liệu đều có thể kiểm chứng trên blockchain.',
+    'whitepaper.section3.principle3.title': 'Đơn giản & rõ ràng',
+    'whitepaper.section3.principle3.desc': 'Cấu trúc dễ hiểu, tránh phức tạp không cần thiết.',
+    'whitepaper.section3.principle4.title': 'Tầm nhìn dài hạn',
+    'whitepaper.section3.principle4.desc': 'Không chạy theo xu hướng ngắn hạn.',
+    'whitepaper.section3.principle5.title': 'Hướng tới cộng đồng',
+    'whitepaper.section3.principle5.desc': 'Giá trị được tạo ra thông qua sự tham gia và đóng góp.',
+
+    // Section 4: Token Overview
+    'whitepaper.section4.title': '4. Tổng quan Token',
+    'whitepaper.section4.tokenName': 'Tên Token',
+    'whitepaper.section4.tokenNameValue': 'Camly Coin',
+    'whitepaper.section4.symbol': 'Ký hiệu',
+    'whitepaper.section4.symbolValue': 'CAMLY',
+    'whitepaper.section4.blockchain': 'Blockchain',
+    'whitepaper.section4.blockchainValue': 'BNB Chain',
+    'whitepaper.section4.standard': 'Tiêu chuẩn',
+    'whitepaper.section4.standardValue': 'BEP-20',
+    'whitepaper.section4.launchDate': 'Ngày ra mắt',
+    'whitepaper.section4.launchDateValue': '10/09/2022',
+    'whitepaper.section4.contractTitle': 'Địa chỉ Hợp đồng Thông minh',
+    'whitepaper.section4.contractNote': 'Hợp đồng thông minh được công khai và có thể kiểm chứng trên các trình khám phá blockchain của BNB Chain.',
+
+    // Section 5: Distribution & Launch Structure
+    'whitepaper.section5.title': '5. Cấu trúc Phát hành & Phân phối',
+    'whitepaper.section5.intro': 'Camly Coin được phát hành mà không thông qua:',
+    'whitepaper.section5.item1': 'ICO (Initial Coin Offering)',
+    'whitepaper.section5.item2': 'Không có các vòng gọi vốn riêng tư hoặc công khai',
+    'whitepaper.section5.item3': 'Không có sự tham gia của quỹ đầu tư mạo hiểm',
+    'whitepaper.section5.closing': 'Cấu trúc này nhằm đảm bảo Camly Coin giữ đúng bản chất là utility token, phục vụ mục đích sử dụng trong hệ sinh thái số.',
+
+    // Section 6: Utility & Use Cases
+    'whitepaper.section6.title': '6. Tiện ích & Trường hợp Sử dụng',
+    'whitepaper.section6.intro': 'Camly Coin có thể được sử dụng trong các nền tảng Web3 được hỗ trợ để:',
+    'whitepaper.section6.item1': 'Truy cập các dịch vụ số',
+    'whitepaper.section6.item2': 'Thực hiện tương tác trong hệ thống',
+    'whitepaper.section6.item3': 'Hỗ trợ các hoạt động dựa trên sự đóng góp',
+    'whitepaper.section6.item4': 'Trao đổi giá trị gắn với việc sử dụng thực tế',
+    'whitepaper.section6.closing': 'Các trường hợp sử dụng cụ thể có thể khác nhau tùy từng nền tảng và được triển khai độc lập.',
+
+    // Section 7: Ecosystem Relationship
+    'whitepaper.section7.title': '7. Mối quan hệ với Hệ sinh thái',
+    'whitepaper.section7.intro': 'Camly Coin được thiết kế để tích hợp với các hệ sinh thái Web3 khác nhau, bao gồm nhưng không giới hạn:',
+    'whitepaper.section7.item1': 'Hệ thống định danh số',
+    'whitepaper.section7.item2': 'Nền tảng cộng đồng và mạng xã hội',
+    'whitepaper.section7.item3': 'Môi trường giáo dục và chia sẻ tri thức',
+    'whitepaper.section7.item4': 'Các ứng dụng dịch vụ số',
+    'whitepaper.section7.closing': 'Mỗi nền tảng hoạt động độc lập, Camly Coin đóng vai trò là công cụ tiện ích khi phù hợp.',
+
+    // Section 8: Governance & Development Philosophy
+    'whitepaper.section8.title': '8. Quản trị & Phát triển',
+    'whitepaper.section8.intro': 'Camly Coin tuân theo nguyên tắc phi tập trung có trách nhiệm, bao gồm:',
+    'whitepaper.section8.item1': 'Minh bạch dữ liệu trên blockchain',
+    'whitepaper.section8.item2': 'Không có cam kết hay bảo đảm tập trung',
+    'whitepaper.section8.item3': 'Phát triển và cải tiến dựa trên nhu cầu sử dụng thực tế',
+    'whitepaper.section8.closing': 'Mục tiêu là đảm bảo tính ổn định, bảo mật và khả năng sử dụng lâu dài.',
+
+    // Section 9: Security & Transparency
+    'whitepaper.section9.title': '9. Bảo mật & Minh bạch',
+    'whitepaper.section9.item1': 'Mọi giao dịch được ghi nhận bất biến trên blockchain',
+    'whitepaper.section9.item2': 'Người dùng có thể tự kiểm chứng dữ liệu',
+    'whitepaper.section9.item3': 'Không tồn tại cơ chế ẩn hoặc điều khiển ngoài chuỗi',
+    'whitepaper.section9.closing': '',
+
+    // Section 10: Risk Awareness
+    'whitepaper.section10.title': '10. Nhận thức Rủi ro',
+    'whitepaper.section10.content': 'Việc sử dụng công nghệ blockchain có thể liên quan đến các rủi ro kỹ thuật, pháp lý và bảo mật. Người dùng tự chịu trách nhiệm trong việc tìm hiểu:',
+    'whitepaper.section10.item1': 'Các quy định pháp luật địa phương',
+    'whitepaper.section10.item2': 'Rủi ro kỹ thuật liên quan đến blockchain',
+    'whitepaper.section10.item3': 'Các thực hành bảo mật phù hợp',
+    'whitepaper.section10.closing': 'Camly Coin không loại bỏ các rủi ro này và không cung cấp bảo đảm.',
+
+    // Section 11: Legal Disclaimer
+    'whitepaper.section11.title': '11. Tuyên bố Pháp lý',
+    'whitepaper.section11.content': 'Camly Coin là utility token, phục vụ mục đích thông tin và chức năng sử dụng.\n\nTài liệu này không cấu thành lời khuyên tài chính, lời mời đầu tư, hoặc chào bán chứng khoán. Không có cam kết hay bảo đảm nào về giá trị hoặc lợi ích tài chính.\n\nNgười dùng nên tự nghiên cứu và tuân thủ các quy định pháp luật hiện hành.',
+
+    // Section 12: Conclusion
+    'whitepaper.section12.title': '12. Kết luận',
+    'whitepaper.section12.content': 'Camly Coin được xây dựng với mục tiêu: Rõ ràng, Minh bạch, Có trách nhiệm, và Giá trị bền vững theo thời gian.\n\nDự án hướng tới việc đóng góp tích cực cho hệ sinh thái Web3 thông qua tiện ích thực tế và sự tham gia của cộng đồng.\n\nCamly Coin đại diện cho cam kết về sự rõ ràng, chính trực và tư duy dài hạn trong phát triển Web3.',
 
     // Hero Section
     'hero.tagline': 'Token Sinh Ra Từ Tình Yêu',
