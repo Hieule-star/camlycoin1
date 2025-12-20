@@ -3,6 +3,7 @@ import { useLanguage } from '@/contexts/LanguageContext';
 import { Copy, Check, ExternalLink } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { useToast } from '@/hooks/use-toast';
+import camlyLogo from '@/assets/camly-logo.png';
 
 const CONTRACT_ADDRESS = '0x0910320181889fefde0bb1ca63962b0a8882e413';
 
@@ -29,11 +30,13 @@ export const HeroSection = () => {
       <div className="absolute bottom-1/4 right-1/4 w-80 h-80 bg-accent/10 rounded-full blur-3xl opacity-40" />
 
       <div className="container-narrow relative z-10 text-center">
-        {/* Logo/Symbol */}
+        {/* Logo */}
         <div className="mb-8 animate-fade-in">
-          <div className="inline-flex items-center justify-center w-24 h-24 md:w-32 md:h-32 rounded-full bg-gradient-to-br from-primary to-accent shadow-lg shadow-primary/20">
-            <span className="font-heading text-3xl md:text-4xl font-bold text-primary-foreground">C</span>
-          </div>
+          <img 
+            src={camlyLogo} 
+            alt="Camly Coin Logo" 
+            className="w-28 h-28 md:w-36 md:h-36 lg:w-44 lg:h-44 object-contain drop-shadow-2xl mx-auto"
+          />
         </div>
 
         {/* Title */}
