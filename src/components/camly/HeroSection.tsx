@@ -100,13 +100,6 @@ export const HeroSection = () => {
         <p className="mt-8 text-sm text-muted-foreground animate-fade-in" style={{ animationDelay: '0.6s' }}>
           {t('hero.launchDate')}
         </p>
-
-        {/* Scroll indicator */}
-        <div className="absolute bottom-10 left-1/2 -translate-x-1/2 animate-float">
-          <div className="w-6 h-10 border-2 border-primary/30 rounded-full flex justify-center pt-2">
-            <div className="w-1 h-2 bg-primary/50 rounded-full" />
-          </div>
-        </div>
       </div>
     </section>
   );
