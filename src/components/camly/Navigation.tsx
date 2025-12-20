@@ -9,6 +9,7 @@ interface NavItem {
   key: string;
   href: string;
   isPage?: boolean;
+  isExternal?: boolean;
 }
 
 const navItems: NavItem[] = [
@@ -19,6 +20,7 @@ const navItems: NavItem[] = [
   { key: 'ecosystem', href: '#ecosystem' },
   { key: 'philosophy', href: '#philosophy' },
   { key: 'whitepaper', href: '/whitepaper', isPage: true },
+  { key: 'funRich', href: 'https://fun.rich', isExternal: true },
   { key: 'contact', href: '#contact' },
 ];
 
@@ -40,7 +42,9 @@ export const Navigation = () => {
   const handleNavClick = (item: NavItem) => {
     setIsMobileMenuOpen(false);
     
-    if (item.isPage) {
+    if (item.isExternal) {
+      window.open(item.href, '_blank', 'noopener,noreferrer');
+    } else if (item.isPage) {
       navigate(item.href);
     } else {
       // If we're not on home page, navigate there first

@@ -18,6 +18,7 @@ const translations: Record<Language, Record<string, string>> = {
     'nav.ecosystem': 'Ecosystem',
     'nav.philosophy': 'Philosophy',
     'nav.whitepaper': 'Whitepaper',
+    'nav.funRich': 'Fun Ecosystem',
     'nav.contact': 'Contact',
 
     // Whitepaper Page
@@ -224,6 +225,7 @@ const translations: Record<Language, Record<string, string>> = {
     'nav.ecosystem': 'Hệ sinh thái',
     'nav.philosophy': 'Triết lý',
     'nav.whitepaper': 'Whitepaper',
+    'nav.funRich': 'Fun Ecosystem',
     'nav.contact': 'Liên hệ',
 
     // Whitepaper Page
