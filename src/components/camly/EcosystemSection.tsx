@@ -1,5 +1,6 @@
 import { useLanguage } from '@/contexts/LanguageContext';
-import { Users2, Trophy, Handshake } from 'lucide-react';
+import { Users2, Trophy, Handshake, ExternalLink, Sparkles } from 'lucide-react';
+import { Button } from '@/components/ui/button';
 
 const ecosystemItems = [
   { key: 'platform1', icon: Users2 },
@@ -26,7 +27,7 @@ export const EcosystemSection = () => {
           {t('ecosystem.intro')}
         </p>
 
-        <div className="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto">
+        <div className="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto mb-12">
           {ecosystemItems.map((item) => {
             const Icon = item.icon;
             return (
@@ -46,6 +47,32 @@ export const EcosystemSection = () => {
               </div>
             );
           })}
+        </div>
+
+        {/* Fun Ecosystem CTA */}
+        <div className="text-center">
+          <div className="inline-flex flex-col items-center gap-4 p-8 rounded-3xl bg-gradient-to-br from-primary/5 via-accent/5 to-primary/10 border border-primary/10">
+            <div className="flex items-center gap-2 text-primary">
+              <Sparkles className="h-5 w-5" />
+              <span className="text-sm font-medium uppercase tracking-wider">
+                {t('ecosystem.funLabel')}
+              </span>
+              <Sparkles className="h-5 w-5" />
+            </div>
+            <p className="text-muted-foreground max-w-md">
+              {t('ecosystem.funDesc')}
+            </p>
+            <Button
+              asChild
+              size="lg"
+              className="group bg-primary hover:bg-primary/90 text-primary-foreground shadow-lg shadow-primary/25 hover:shadow-primary/40 transition-all duration-300"
+            >
+              <a href="https://fun.rich" target="_blank" rel="noopener noreferrer">
+                {t('ecosystem.funBtn')}
+                <ExternalLink className="ml-2 h-4 w-4 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
+              </a>
+            </Button>
+          </div>
         </div>
       </div>
     </section>

@@ -187,6 +187,9 @@ const translations: Record<Language, Record<string, string>> = {
     'ecosystem.platform2Desc': 'Integrated systems that use CAMLY for community recognition and appreciation.',
     'ecosystem.platform3': 'Partner Services',
     'ecosystem.platform3Desc': 'Select partner services that accept and integrate CAMLY within their offerings.',
+    'ecosystem.funLabel': 'Fun Ecosystem',
+    'ecosystem.funDesc': 'Discover platforms spreading the Happy Camly Coin for prosperity and meaningful connections.',
+    'ecosystem.funBtn': 'Explore Fun Ecosystem',
 
     // Philosophy Section
     'philosophy.title': 'Philosophy & Values',
@@ -390,6 +393,9 @@ const translations: Record<Language, Record<string, string>> = {
     'ecosystem.platform2Desc': 'Các hệ thống tích hợp sử dụng CAMLY cho việc ghi nhận và đánh giá cao cộng đồng.',
     'ecosystem.platform3': 'Dịch vụ Đối tác',
     'ecosystem.platform3Desc': 'Các dịch vụ đối tác được chọn lọc chấp nhận và tích hợp CAMLY trong các dịch vụ của họ.',
+    'ecosystem.funLabel': 'Fun Ecosystem',
+    'ecosystem.funDesc': 'Khám phá các nền tảng lan tỏa đồng tiền hạnh phúc thịnh vượng Happy Camly Coin.',
+    'ecosystem.funBtn': 'Khám phá Fun Ecosystem',
 
     // Philosophy Section
     'philosophy.title': 'Triết lý & Giá trị',
