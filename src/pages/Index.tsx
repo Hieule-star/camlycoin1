@@ -1,4 +1,3 @@
-import { LanguageProvider } from '@/contexts/LanguageContext';
 import { Navigation } from '@/components/camly/Navigation';
 import { HeroSection } from '@/components/camly/HeroSection';
 import { AboutSection } from '@/components/camly/AboutSection';
@@ -12,22 +11,20 @@ import { DisclaimerFooter } from '@/components/camly/DisclaimerFooter';
 
 const Index = () => {
   return (
-    <LanguageProvider>
-      <div className="min-h-screen bg-background">
-        <Navigation />
-        <main>
-          <HeroSection />
-          <AboutSection />
-          <TokenInfoSection />
-          <TransparencySection />
-          <PurposeSection />
-          <EcosystemSection />
-          <PhilosophySection />
-          <ContactSection />
-        </main>
-        <DisclaimerFooter />
-      </div>
-    </LanguageProvider>
+    <div className="min-h-screen bg-background">
+      <Navigation />
+      <main>
+        <HeroSection />
+        <AboutSection />
+        <TokenInfoSection />
+        <TransparencySection />
+        <PurposeSection />
+        <EcosystemSection />
+        <PhilosophySection />
+        <ContactSection />
+      </main>
+      <DisclaimerFooter />
+    </div>
   );
 };
 
