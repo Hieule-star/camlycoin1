@@ -90,7 +90,7 @@ export const Navigation = () => {
             top: 0,
             behavior: 'smooth'
           });
-        }} className="font-heading text-xl md:text-2xl font-semibold text-primary hover:text-primary/80 transition-colors">
+        }} className="font-heading text-xl font-semibold text-primary hover:text-primary/80 transition-colors md:text-lg text-center">
             CAMLY COIN  
           </a>
 
