@@ -17,7 +17,13 @@ const translations: Record<Language, Record<string, string>> = {
     'nav.purpose': 'Purpose',
     'nav.ecosystem': 'Ecosystem',
     'nav.philosophy': 'Philosophy',
+    'nav.whitepaper': 'Whitepaper',
     'nav.contact': 'Contact',
+
+    // Whitepaper Page
+    'whitepaper.title': 'Whitepaper',
+    'whitepaper.subtitle': 'CAMLY COIN (CAMLY) - Whitepaper v2',
+    'whitepaper.placeholder': 'Whitepaper content will be added here.',
 
     // Hero Section
     'hero.tagline': 'A Token Born from Love',
@@ -115,7 +121,13 @@ const translations: Record<Language, Record<string, string>> = {
     'nav.purpose': 'Mục đích',
     'nav.ecosystem': 'Hệ sinh thái',
     'nav.philosophy': 'Triết lý',
+    'nav.whitepaper': 'Whitepaper',
     'nav.contact': 'Liên hệ',
+
+    // Whitepaper Page
+    'whitepaper.title': 'Whitepaper',
+    'whitepaper.subtitle': 'CAMLY COIN (CAMLY) - Whitepaper v2',
+    'whitepaper.placeholder': 'Nội dung Whitepaper sẽ được thêm vào đây.',
 
     // Hero Section
     'hero.tagline': 'Token Sinh Ra Từ Tình Yêu',
