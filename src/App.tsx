@@ -4,6 +4,7 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import { Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import Whitepaper from "./pages/Whitepaper";
+import Install from "./pages/Install";
 import NotFound from "./pages/NotFound";
 
 const App = () => (
@@ -13,6 +14,7 @@ const App = () => (
     <Routes>
       <Route path="/" element={<Index />} />
       <Route path="/whitepaper" element={<Whitepaper />} />
+      <Route path="/install" element={<Install />} />
       <Route path="*" element={<NotFound />} />
     </Routes>
   </TooltipProvider>
